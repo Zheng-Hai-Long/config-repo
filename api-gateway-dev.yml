@@ -1,6 +1,6 @@
 zuul:
 #忽略所有敏感头
-  sensitive-headers: 
+  sensitive-headers： 
   routes:
     myProduct:
       path: /myProduct/**
