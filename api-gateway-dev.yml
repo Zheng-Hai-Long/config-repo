@@ -1,11 +1,11 @@
 zuul:
   sensitive-headers:
   routes:
-    myProduct:
-      path: /myProduct/**
-      serviceId: product
-      sensitiveHeaders:
-#    product: /myProduct/**
+#     myProduct:
+#       path: /myProduct/**
+#       serviceId: product
+#       sensitiveHeaders:
+    product: /myProduct/**
   ignored-patterns:
     - /**/product/listForOrder
 #    - /product/product/listForOrder
