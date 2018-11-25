@@ -1,5 +1,4 @@
 zuul:
-#忽略所有敏感头
   sensitive-headers： 
   routes:
     myProduct:
