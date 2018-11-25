@@ -10,10 +10,10 @@ zuul:
 #       sensitiveHeaders:
     product: /myProduct/**
   ignored-patterns:
+    - /**/product/listForOrder
+#    - /product/product/listForOrder
+#    - /myProduct/product/listForOrder
 spring:
   redis:
     host: 192.168.99.100
     port: 6379
-    - /**/product/listForOrder
-#    - /product/product/listForOrder
-#    - /myProduct/product/listForOrder
