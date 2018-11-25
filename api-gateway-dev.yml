@@ -1,9 +1,11 @@
 zuul:
+#忽略所有敏感头
+  sensitive-headers: 
   routes:
     myProduct:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:
+#      sensitiveHeaders:
 #    product: /myProduct/**
   ignored-patterns:
     - /**/product/listForOrder
